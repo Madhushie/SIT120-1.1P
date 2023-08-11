@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Website</title>
+    <!--external CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Internal CSS styles */
+      
+      body {
+        background-color: #e6ead5;
+      }
+  
+      header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+  
+      .image-gallery img {
+        max-width: 100%;
+        height: auto;
+      }
+  </style>
+   </head>
+  <body>
+    <!--Inline CSS-->
+    <header style="background-color: #333; color: #fff; text-align: center; padding: 1rem;">
+      <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">Welcome to Our Travel Website</h1>
+    </header>
+
+      <!--These are URL links -->
+      <section>
+        <h2>Explore Destinations</h2>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Western_Europe">Western Europe</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Southern_Europe">Southern Europe</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Baltic_states">Baltic States </a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Scandinavia">Scandinavia</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Central_Europe">Central Europe</a></li>
+         
+
+
+         
+        </ul>
+      </section>
+ <!-- this is a table -->
+      <section>
+        <h2>Popular Tours</h2>
+        <table>
+          <tr>
+            <th>Tour Name</th>
+            <th>Duration</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Western Europe Tour</td>
+            <td>4 weeks</td>
+            <td>$5500</td>
+          </tr>
+          <tr>
+            <td>Southern Europe Tour</td>
+            <td>3 weeks</td>
+            <td>$5000</td>
+          </tr>
+          <tr>
+            <td>Baltic States Tour</td>
+            <td>2 weeks</td>
+            <td>$3000</td>
+          </tr>
+          <tr>
+            <td>Scandinavian Tour</td>
+            <td>3 weeks</td>
+            <td>$7000</td>
+          </tr>
+          <tr>
+            <td>Central Europe Tour</td>
+            <td>3 weeks</td>
+            <td>$4000</td>
+          </tr>
+          
+        </table>
+      </section>
+
+
+
+      <!--this section features some images of the different destinations-->
+      <section>
+        <h2>Featured Images</h2>
+        <div class="image-gallery">
+          <img src="https://i.natgeofe.com/k/f9900e65-609e-4f60-86db-04d3df135eb8/greece-island_3x2.jpg" alt="Image 1-greece" />
+          <img src="https://www.state.gov/wp-content/uploads/2018/11/Sweden-2109x1406.jpg" alt="Image 2-sweden" />
+          <img src="https://imageio.forbes.com/specials-images/imageserve/620ca273d9db9336241d67d9/Fantastic-landscape-of-Finland-with-northern-lights-/960x0.jpg?format=jpg&width=960" alt="Image 2-finland" />
+
+        </div>
+      </section>
+      <!--Different paragraph describing the agency -->
+        <section>
+          <h2>About Us</h2>
+          <p>Welcome to the EuroExplorer Travel Agency!</p>
+          <p>
+            At EuroExplorer, we are passionate about creating unforgettable
+            travel experiences in Europe. With our in-depth knowledge of the
+            continent's diverse cultures, history, and breathtaking landscapes,
+            we strive to curate the perfect European getaway for every traveler.
+          </p>
+          <p>
+            Our team of travel experts consists of seasoned adventurers and
+            culture enthusiasts who have explored the hidden gems and iconic
+            landmarks across Europe. From the charming streets of Paris to the
+            awe-inspiring fjords of Norway, we offer a wide range of handpicked
+            destinations and immersive tours that cater to every type of
+            traveler's wanderlust.
+          </p>
+          <p>
+            Whether you dream of exploring ancient ruins, indulging in
+            delectable cuisines, or embarking on thrilling outdoor adventures,
+            EuroExplorer has the ideal itinerary for you. Our carefully crafted
+            tours blend must-see attractions with authentic local experiences,
+            ensuring that you get the most out of your European adventure.
+          </p>
+          <p>
+            With our commitment to customer satisfaction and attention to
+            detail, we take care of every aspect of your journey. From booking
+            accommodations to arranging transportation and providing
+            knowledgeable guides, we are dedicated to delivering seamless and
+            stress-free travel experiences.
+          </p>
+          <p>
+            We invite you to join us on an extraordinary journey through
+            Europe's enchanting landscapes, cultural treasures, and diverse
+            traditions. Let us be your travel companion, creating cherished
+            memories that will last a lifetime. Discover the beauty and charm of
+            Europe with EuroExplorer Travel Agency today!
+          </p>
+        </section>
+      </section>
+
+<!-- this is a form for contacing the agency-->
+
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="10" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+      <section>
+        <h2>Contact Us</h2>
+        <p>
+          If you have any questions or want to book a tour, feel free to contact
+          us!
+        </p>
+        <!--contact us button-->
+        <button id="contactBtn">Contact Us</button>
+      </section>
+      <script src="script.js"></script>
+ 
+    <footer>
+      <p>&copy; 2023 Your Travel Website. All rights reserved.</p>
+    </footer>
+
+   
+  </body>
+</html>
